@@ -1,0 +1,20 @@
+{
+  "name": "restapidatabase",
+  "version": "1.0.0",
+  "description": "typescript rest api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc",
+    "start": "node dist/src/server.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "romijulianto",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  }
+}
